@@ -10,7 +10,7 @@ RathDB has several interacting classes, as shown by the UML class diagram I've c
 
 ![RathDB UML Class Diagram](assets/class-diagram.png)
 
-Here are some brief (alphabetized) explanations for RathDB's main classes. For more in-depth explanations, check out our documentation in the `/core/include/` directories. For example, you will find documentation for the BlockInfoDatabase class in `/core/include/block_info_database/documentation` directory. Note: not all classes have documentation.
+Here are some brief (alphabetized) explanations for RathDB's main classes. For more in-depth explanations, check out our documentation in the `/core/include/` directories. For example, you will find documentation for the BlockInfoDatabase class in the `/core/include/block_info_database/documentation` directory. Note: not all classes have documentation.
 
 - Block: the Chain's way of recording information on Transactions. It is composed of a BlockHeader and a list of Transactions.
 
